@@ -1,0 +1,8 @@
+.loader-container {
+    z-index: 9999;
+  }
+  
+  .loader {
+    width: 400px;
+  }
+  

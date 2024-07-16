@@ -1,0 +1,110 @@
+.pages-bg {
+    /* background: rgb(1, 27, 46);
+    background: linear-gradient(50deg, rgba(1, 27, 46, 1) 0%, rgba(13, 228, 236, 1) 100%); */
+    background-image: url(../Images/neon-light-clothing-room-background.jpg);
+    background-size: cover;
+    background-position: center 37%;
+}
+
+.pages-bg h4 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.pages-bg h6 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+}
+
+.opacity-dim {
+    opacity: 0.5;
+}
+
+.pages-bg .fs-1 {
+    color: white !important;
+}
+
+.help-section h3 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px !important;
+    color: #06595c;
+}
+
+.dark-green {
+    color: #06595c;
+    font-size: 17px;
+}
+
+.help-section h3:after {
+    content: "";
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: linear-gradient(250deg, rgb(1, 84, 88) 0%, rgb(7, 203, 209) 100%);
+}
+
+.help-section p {
+    text-align: justify;
+}
+
+.wave {
+    width: 25px;
+}
+
+.thankyou {
+    width: 30px;
+}
+
+.help-section ul {
+    font-size: 15px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.help-section h6 {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.contact-btn {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 150px;
+    padding: 15px 15px;
+    color: #ffffff;
+    border: 1px solid #06595c;
+    opacity: 0.9;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-btn:hover {
+    background: #ffffff;
+    color: #06595c;
+}
+
+.talk {
+    border-right: 0.4px solid #ffffff;
+    background: linear-gradient(270deg, rgba(3, 140, 153, 1) 0%, rgba(0, 18, 21, 1) 85%, rgba(0, 14, 17, 1) 100%);
+}
+
+.chat {
+    border-left: 0.4px solid #ffffff;
+    background: linear-gradient(90deg, rgba(3, 140, 153, 1) 0%, rgba(0, 18, 21, 1) 85%, rgba(0, 14, 17, 1) 100%);
+}
+
+.delivery {
+    background-image: url("../Images/delivery2.png");
+    background-size: cover;
+    background-position: 35% center;
+}
+
+.delivery2 {
+    background-image: url("../Images/delivery2.png");
+    background-size: cover;
+    background-position: 42% center;
+}
+
+.p-6{
+    padding: 3.6rem 0;
+}

@@ -1,0 +1,302 @@
+.dashboard-menu {
+    height: 100%;
+    background: #f3f8f8;
+}
+
+.dashboard-menu .logo {
+    border: 1px solid #ffffff;
+    margin-top: -7px;
+}
+
+.dashboard-menu .heading {
+    font-family: "Josefin sans", serif;
+    color: #0c617ec5;
+    font-weight: 600;
+}
+
+.menu {
+    font-family: "Josefin sans", serif;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+}
+
+.menu h6 {
+    margin-top: 2px;
+    color: #055962;
+}
+
+.menu img:nth-child(3) {
+    margin-left: -5px;
+}
+
+.menu .active {
+    background: #055962;
+}
+
+.menu .active h6 {
+    color: #ffffff;
+}
+
+.dashboard-main {
+    background: #ffffff;
+}
+
+.dashboard-main h6 {
+    font-family: "Josefin sans", serif;
+    font-weight: 300;
+}
+
+.dashboard-main input {
+    width: 400px;
+    max-width: 400px;
+    padding: 7px 0;
+    color: #055962;
+    border-bottom: 1px solid #0559628e;
+}
+
+.dashboard-main input::placeholder {
+    color: #0559628e;
+}
+
+.dashboard-main .fa-magnifying-glass {
+    top: 10px;
+    right: 5px;
+    color: #0559628e;
+}
+
+.noti-img img {
+    width: 25px;
+    margin-top: -5px;
+}
+
+.noti {
+    top: 1px;
+    right: 5.5px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #ffffff;
+    z-index: 9;
+}
+
+.border-green2 {
+    border: 2px solid #055962;
+}
+
+.dashboard-content {
+    background: #055962;
+}
+
+.homeimg {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+}
+
+.all-data {
+    background: #fff;
+}
+
+.recharts-wrapper {
+    background: #fff;
+    border-radius: 10px;
+}
+
+tspan {
+    font-family: "Josefin sans", serif;
+    font-size: 18px;
+    color: #055962 !important;
+}
+
+.ed-btns {
+    background: #055962;
+    width: 47%;
+}
+
+.ed-btns span {
+    padding-top: 2px;
+}
+
+.product-topbar2 {
+    border: 1px solid #ffffff;
+}
+
+.product-topbar2 p {
+    font-family: "Josefin Sans", serif;
+    font-size: 18px;
+}
+
+.product-topbar2 .dropdown-menu {
+    --bs-dropdown-min-width: 9.2rem;
+    --bs-dropdown-border-color: #038c99;
+    --bs-dropdown-border-radius: none;
+    --bs-dropdown-padding-y: 0rem;
+    z-index: 9;
+}
+
+.product-topbar2 .dropdown-item {
+    font-size: 17px;
+    font-family: "Josefin Sans", serif;
+    padding: 5px 10px;
+    color: #038c99;
+}
+
+.product-topbar2 .dropdown-item:hover {
+    background-color: #089daa9d;
+    color: #ffffff;
+}
+
+.product-topbar2 .dropdown-item.active {
+    background-color: #038c99 !important;
+    color: #ffffff !important;
+}
+
+.add-btn {
+    transition: 0.5s;
+}
+
+.add-btn:hover {
+    background: #055962 !important;
+}
+
+.add-btn:hover h6 {
+    color: #ffffff !important;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+.add-product .contact-form .input-box input {
+    height: 40px;
+    padding: 3px 10px;
+    font-family: "Josefin sans", serif;
+    font-size: 16px
+}
+
+.add-product .contact-form .input-box span {
+    font-family: "Josefin sans", serif;
+    font-size: 14px;
+    top: 10px;
+    padding: 0;
+}
+
+.add-product .contact-form .input-box textarea {
+    height: 100px;
+    padding: 6px 10px;
+    font-family: "Josefin sans", serif;
+}
+
+.add-product .contact-form .input-box:nth-child(5) span {
+    left: 10px;
+}
+
+.add-product .contact-form .input-box input:focus~span,
+.add-product .contact-form .input-box textarea:focus~span {
+    transform: translateY(-20px);
+}
+
+.upload-img {
+    border: 1px solid #055962;
+    width: 80px;
+    height: 80px;
+}
+
+.upload-img img {
+    width: 50px;
+}
+
+.upload-img input[type="file"] {
+    display: none;
+}
+
+.add-product .contact-form .input-box .dropdown {
+    height: 40px;
+    border: 1px solid #04616f;
+}
+
+.mid-border {
+    margin: 5px 0;
+    border-left: 1px solid #04616f;
+    opacity: 0.5;
+}
+
+.add-product .contact-form .input-box .dropdown button {
+    width: 170px !important;
+    height: 100%;
+}
+
+.add-product .contact-form .input-box .dropdown .dropdown-menu {
+    --bs-dropdown-min-width: 9.6rem;
+    --bs-dropdown-border-color: #038c99;
+    --bs-dropdown-border-radius: none;
+    --bs-dropdown-padding-y: 0rem;
+    z-index: 9;
+    top: -7px !important;
+    left: -11px !important;
+    background: #abd7db;
+    font-family: "Josefin sans", serif;
+    font-size: 16px;
+    padding: 5px;
+    color: #055962;
+}
+
+.add-product .contact-form .input-box input.has-value + span,
+.add-product .contact-form .input-box textarea.has-value + span {
+    color: #075265;
+    transform: translateY(-20px);
+}
+
+.delete-btn{
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    right: -5px;
+    color: #055962;
+    background: #ffffff;
+    border: 1px solid #055962;
+}
+   
+.delete-btn2{
+    color: #055962;
+}
+
+
+.add-btn2{
+    padding: 8px 0 5px;
+}
+
+.add-product .dropdown-item {
+    padding: 3px 10px 1px;
+}
+
+
+/* <Col lg='3' className='d-flex justify-content-center animated mt-3'>
+                                    <div className='product bg-white px-2 pb-2'>
+                                        <div className='p-2 object-contain'>
+                                            <img src={product} alt='product1' className='w-100 h-100' />
+                                        </div>
+                                        <div className='product-content mt-1'>
+                                            <h6>Men's Cotton T-shirt</h6>
+                                            <div className='d-flex align-items-center justify-content-between'>
+                                                <h5 className='price'>$ 15.99</h5>
+                                                <div className='d-flex rating'>
+                                                    <h6><FontAwesomeIcon icon={faStar} size="xs" /></h6>
+                                                    <h6><FontAwesomeIcon icon={faStar} size="xs" /></h6>
+                                                    <h6><FontAwesomeIcon icon={faStar} size="xs" /></h6>
+                                                    <h6><FontAwesomeIcon icon={faStar} size="xs" /></h6>
+                                                    <h6><FontAwesomeIcon icon={faStar} size="xs" /></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='d-flex align-items-center justify-content-between'>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1" className='ed-btns d-flex align-items-center justify-content-center gap-2 cursor-pointer' onClick={handleEditClick}>
+                                                <span className='white josefin-sans fs-14'>Edit</span>
+                                                <FontAwesomeIcon icon={faPencil} className='fs-14 white' />
+                                            </button>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2" className='ed-btns d-flex align-items-center justify-content-center gap-2 cursor-pointer'>
+                                                <span className='white josefin-sans fs-14'>Delete</span>
+                                                <FontAwesomeIcon icon={faTrash} className='fs-14 white' />
+                                            </button>
+                                        </div>
+                                    </div>
+                                </Col> */

@@ -1,0 +1,99 @@
+.bg-blue {
+    background: linear-gradient(180deg, rgba(3, 140, 153, 1) 0%, rgba(0, 18, 21, 1) 85%, rgba(0, 14, 17, 1) 100%);
+    ;
+    height: 500px;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+.footer h6 {
+    font-family: "Cinzel", sans-serif;
+    font-size: 16px;
+    color: #ffffffcc;
+}
+
+.image-bg {
+    width: 40px;
+    height: 28px;
+    padding: 0 4px;
+    background: #ffffff;
+}
+
+.footer h5 {
+    font-family: "Josefin Sans", serif;
+    font-size: 26px !important;
+    color: #ffffff;
+}
+
+.ms-6 {
+    margin-left: 5rem;
+}
+
+.footer ul {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
+}
+
+.ffffffcc {
+    color: #ffffffcc;
+}
+
+.ffffffcc:hover {
+    color: #ffffff;
+}
+
+.newsletter-form img {
+    width: 50px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffffcc;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.socials {
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    transition: 0.5s;
+    color: #04454b;
+    font-size: 26px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.socials:hover {
+    background: #04454b;
+    color: #ffffff;
+}
+
+.divider2 {
+    width: 1024px;
+    margin-top: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 70%;
+}
+
+.footer h4 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 3.5rem;
+    color: #ffffffde;
+}
